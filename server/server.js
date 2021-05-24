@@ -43,10 +43,14 @@ app.get("/api/config/google", (req, res) => {
 // for showing uploaded image from upload folder to the ui and database
 const __dirname = path.resolve();
 app.use("/uploads", express.static(path.join(__dirname, "/uploads")));
-
-app.get("/", (req, res) => {
-  res.send("Server is ready");
+app.use(express.static(path.join(__dirname, "/client/build")));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "/client/build/index.html"));
 });
+
+// app.get("/", (req, res) => {
+//   res.send("Server is ready");
+// });
 // app.get("/api/products", (req, res) => {
 //   res.send(data);
 // });
