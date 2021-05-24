@@ -1,0 +1,44 @@
+@media (max-width: 700px) {
+  /* searchbox */
+  /* .row {
+    display: inline-block;
+  } */
+  .rsp-searchbox {
+    /* margin-top: 5rem;
+    margin-left: 8rem; */
+  }
+  /* brand */
+
+  a.brand {
+    font-size: 2rem;
+  }
+  /* home */
+  .rsp-home {
+    padding-top: 5rem;
+  }
+  /* back to all products button */
+  .rsp-btap {
+    margin-top: 6rem;
+  }
+  /* product description */
+  .rsp-prd {
+    /* padding-right: 2rem; */
+  }
+  /* user navber */
+  .rsp-navbar-user {
+    /* margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem; */
+  }
+  /* /* .rsp-home {
+    padding-top: 7rem;
+    margin-left: 3rem;
+  } */
+  /* 
+   */
+  img {
+    max-width: 100%;
+    display: block;
+  }
+}

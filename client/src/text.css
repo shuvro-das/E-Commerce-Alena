@@ -1,0 +1,132 @@
+@media screen and (min-width: 375px) {
+  .rsp-btap {
+    margin-top: 4rem;
+  }
+  .rsp-search {
+    margin-top: 3rem;
+    margin-left: 5rem;
+  }
+  .rsp-home {
+    padding-top: 4rem;
+  }
+  .rsp-p-img {
+    width: 100%;
+  }
+  .rsp-navbar-user {
+    /* position: fixed; */
+
+    margin-left: 28rem;
+  }
+  .rsp-navbar-admin {
+    position: fixed;
+    /* display: flex;
+      flex-direction: row; */
+
+    /* margin-left: 25rem; */
+    margin-left: 10rem;
+    font-size: 10px;
+    padding-left: 2rem;
+  }
+  .rsp-cart {
+    margin-top: 6rem;
+    justify-content: center;
+  }
+  .rsp-ptc {
+    margin-top: rem;
+  }
+
+  a.brand {
+    font-size: 2rem;
+  }
+  /* .grid-container {
+      position: sticky;
+    } */
+}
+
+@media screen and (min-width: 414px) {
+  .rsp-filter {
+    padding-top: 9rem;
+    padding-right: 1rem;
+  }
+  .rsp-btap {
+    margin-top: 7rem;
+  }
+  .rsp-search {
+    margin-top: 2rem;
+    margin-left: 8rem;
+  }
+  .rsp-ship-address {
+    /* margin-top: 7rem; */
+  }
+}
+@media (min-width: 411px) {
+  /* pixel 2 xl */
+  .rsp-searchbox {
+    padding-top: 2rem;
+    padding-left: 10rem;
+  }
+}
+
+@media (max-width: 640px) {
+  /* moto g4 */
+  /* galaxy s5 */
+  .rsp-searchbox {
+    padding-top: 2rem;
+    padding-left: 6rem;
+  }
+  .rsp-home {
+    padding-top: 3rem;
+  }
+}
+@media (max-width: 731px) {
+  /* pixel 2 */
+  .rsp-searchbox {
+    padding-top: 2rem;
+    padding-left: 10rem;
+  }
+}
+@media (max-width: 823px) {
+  /* pixel 2 */
+  .rsp-searchbox {
+    padding-top: 2rem;
+    padding-left: 10rem;
+  }
+}
+
+@media (max-width: 667px) {
+  /* iphone 6/7/8 */
+  .rsp-searchbox {
+    padding-top: 2rem;
+    padding-left: 6rem;
+  }
+}
+
+@media (max-width: 736px) {
+  /* iphone 6/7/8 plus */
+  .rsp-searchbox {
+    padding-top: 2rem;
+    padding-left: 6rem;
+  }
+}
+
+@media (max-width: 812px) {
+  .rsp-searchbox {
+    padding-top: 2rem;
+    padding-left: 6rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .rsp-searchbox {
+    padding-top: 2rem;
+    padding-left: 6rem;
+  }
+}
+
+/*  and (max-width: 640px)*/
+/*  and (max-width: 731) */
+/* and (max-width: 823) */
+/*  and (max-width: 568) */
+/* and (max-width: 667) */
+/* and (max-width: 736) */
+/* and (max-width: 812) */
