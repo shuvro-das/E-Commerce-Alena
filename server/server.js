@@ -14,12 +14,10 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-// const CONNECTION_URL =
-//   "mongodb+srv://admin1:XxvqZUvGf8LKYJCR@cluster0.vfqse.mongodb.net/mern1?retryWrites=true&w=majority";
+
 mongoose.connect(
   process.env.MONGODB_URL,
-  // || "mongodb://localhost/alena"
-  // CONNECTION_URL,
+
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -49,13 +47,12 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "/client/build/index.html"));
 });
 
-// app.get("/", (req, res) => {
-//   res.send("Server is ready");
-// });
-// app.get("/api/products", (req, res) => {
-//   res.send(data);
-// });
-
+// if(process.env.NODE_ENV === 'production'){
+//   app.use(express.static(path.join(__dirname, 'client/build')));
+//   app.get('*', function(req,res){
+//     res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+//   });
+// };
 app.use((err, req, res, next) => {
   res.status(500).send({ message: err.message });
 });
