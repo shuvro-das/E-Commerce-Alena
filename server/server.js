@@ -14,11 +14,12 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-const CONNECTION_URL =
-  "mongodb+srv://admin1:XxvqZUvGf8LKYJCR@cluster0.vfqse.mongodb.net/mern1?retryWrites=true&w=majority";
+// const CONNECTION_URL =
+//   "mongodb+srv://admin1:XxvqZUvGf8LKYJCR@cluster0.vfqse.mongodb.net/mern1?retryWrites=true&w=majority";
 mongoose.connect(
+  process.env.MONGODB_URL,
   // || "mongodb://localhost/alena"
-  CONNECTION_URL,
+  // CONNECTION_URL,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
