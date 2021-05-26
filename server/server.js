@@ -26,7 +26,7 @@ mongoose.connect(
     useCreateIndex: true,
   },
   () => {
-    console.log("databse connected locally");
+    console.log("databse connected");
   }
 );
 app.use("/api/uploads", uploadRouter);
