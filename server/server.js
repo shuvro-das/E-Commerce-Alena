@@ -14,9 +14,9 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
+const connection_url = "mongodb://localhost:27017/alena";
 mongoose.connect(
-  process.env.MONGODB_URL,
+  // process.env.MONGODB_URL,
 
   {
     useNewUrlParser: true,
