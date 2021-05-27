@@ -45,12 +45,196 @@
     padding-top: 5rem;
   }
   .navbar-rsp {
-    /* top: 0;
-    position: fixed; */
-    padding-left: 14rem;
-    padding-top: 2rem;
+    font-size: 14px;
+    padding-right: 3rem;
   }
   .pindi-name-rsp {
     font-size: 15px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem 1fr 5rem;
+    height: 100%;
+  }
+  header {
+    grid-area: header;
+    background-color: #203040;
+  }
+  .dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    position: absolute;
+    display: none;
+    right: 0;
+    min-width: 12rem;
+    padding: 1rem;
+    z-index: 1;
+    background-color: #203040;
+    margin: 0;
+    margin-top: 0.4rem;
+    border-radius: 0.5rem;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
+
+@media (max-width: 568px) {
+  .brand {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  a.brand {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .search button {
+    border-radius: 0 0.5rem 0.5rem 0;
+    border-right: none;
+    margin-right: 3.5rem;
+    display: none;
+  }
+
+  .search input {
+    border-radius: 0.5rem 0 0 0.5rem;
+    border-right: none;
+    margin-left: 0.5rem;
+    display: none;
+  }
+  .active {
+    font-weight: bold;
+    display: none;
+  }
+
+  .rsp-home {
+    padding-top: 5rem;
+  }
+  .indi-product-rsp {
+    padding-top: 6rem;
+  }
+  .rsp-cart {
+    padding-top: 5rem;
+  }
+  .navbar-rsp {
+    font-size: 14px;
+    padding-right: 3rem;
+  }
+  .pindi-name-rsp {
+    font-size: 15px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem 1fr 5rem;
+    height: 100%;
+  }
+  header {
+    grid-area: header;
+    background-color: #203040;
+  }
+  .dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    position: absolute;
+    display: none;
+    right: 0;
+    min-width: 12rem;
+    padding: 1rem;
+    z-index: 1;
+    background-color: #203040;
+    margin: 0;
+    margin-top: 0.4rem;
+    border-radius: 0.5rem;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
+
+@media (max-width: 812px) {
+  .brand {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  a.brand {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .search button {
+    border-radius: 0 0.5rem 0.5rem 0;
+    border-right: none;
+    margin-right: 3.5rem;
+    display: none;
+  }
+
+  .search input {
+    border-radius: 0.5rem 0 0 0.5rem;
+    border-right: none;
+    margin-left: 0.5rem;
+    display: none;
+  }
+  .active {
+    font-weight: bold;
+    display: none;
+  }
+
+  .rsp-home {
+    padding-top: 5rem;
+  }
+  .indi-product-rsp {
+    padding-top: 6rem;
+  }
+  .rsp-cart {
+    padding-top: 5rem;
+  }
+  /* .navbar-rsp {
+    font-size: 14px;
+    padding-left: 2rem;
+  } */
+  .pindi-name-rsp {
+    font-size: 15px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem 1fr 5rem;
+    height: 100%;
+  }
+  header {
+    grid-area: header;
+    background-color: #203040;
+  }
+  .dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    position: absolute;
+    display: none;
+    right: 0;
+    min-width: 12rem;
+    padding: 1rem;
+    z-index: 1;
+    background-color: #203040;
+    margin: 0;
+    margin-top: 0.4rem;
+    border-radius: 0.5rem;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
 }
