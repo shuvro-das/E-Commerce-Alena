@@ -39,7 +39,7 @@ export default function CartScreen(props) {
           <ul>
             {cartItems.map((item) => (
               <li key={item.product}>
-                <div className="row">
+                <div className="row pindi-name-rsp">
                   <div>
                     <img
                       src={item.image}
@@ -47,7 +47,7 @@ export default function CartScreen(props) {
                       className="small"
                     ></img>
                   </div>
-                  <div className="min-30">
+                  <div className="min-30 ">
                     <Link to={`/product/${item.product}`}>{item.name}</Link>
                   </div>
                   <div>

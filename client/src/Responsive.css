@@ -1,44 +1,56 @@
-@media (max-width: 700px) {
-  /* searchbox */
-  /* .row {
-    display: inline-block;
-  } */
-  .rsp-searchbox {
-    /* margin-top: 5rem;
-    margin-left: 8rem; */
+@media (max-width: 731px) {
+  .brand {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
   }
-  /* brand */
-
   a.brand {
-    font-size: 2rem;
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: bold;
   }
-  /* home */
+
+  .search button {
+    border-radius: 0 0.5rem 0.5rem 0;
+    border-right: none;
+    margin-right: 3.5rem;
+    display: none;
+  }
+
+  .search input {
+    border-radius: 0.5rem 0 0 0.5rem;
+    border-right: none;
+    margin-left: 0.5rem;
+    display: none;
+  }
+  .active {
+    font-weight: bold;
+    display: none;
+  }
+  .navbar-user-rsp {
+    font-size: 14px;
+    padding-left: 14rem;
+    padding-top: 2rem;
+  }
+  .navbar-admin-rsp {
+    font-size: 14px;
+  }
   .rsp-home {
     padding-top: 5rem;
   }
-  /* back to all products button */
-  .rsp-btap {
-    margin-top: 6rem;
+  .indi-product-rsp {
+    padding-top: 6rem;
   }
-  /* product description */
-  .rsp-prd {
-    /* padding-right: 2rem; */
+  .rsp-cart {
+    padding-top: 5rem;
   }
-  /* user navber */
-  .rsp-navbar-user {
-    /* margin-bottom: 5rem;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 3rem; */
+  .navbar-rsp {
+    /* top: 0;
+    position: fixed; */
+    padding-left: 14rem;
+    padding-top: 2rem;
   }
-  /* /* .rsp-home {
-    padding-top: 7rem;
-    margin-left: 3rem;
-  } */
-  /* 
-   */
-  img {
-    max-width: 100%;
-    display: block;
+  .pindi-name-rsp {
+    font-size: 15px;
   }
 }

@@ -77,7 +77,7 @@ function App() {
               )}
             ></Route>
           </div>
-          <div>
+          <div className="navbar-admin-rsp">
             <Link to="/cart">
               <i class="fa fa-shopping-cart" aria-hidden="true"></i>
               {cartItems.length > 0 && (

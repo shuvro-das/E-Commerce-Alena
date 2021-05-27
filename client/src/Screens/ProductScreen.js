@@ -51,7 +51,7 @@ export default function ProductScreen(props) {
     }
   };
   return (
-    <div>
+    <div className="indi-product-rsp">
       {loading ? (
         <LoadingBox></LoadingBox>
       ) : error ? (
